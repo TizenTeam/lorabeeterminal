@@ -63,7 +63,7 @@ func main() {
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:  "port-name",
-			Value: "/dev/tty.usbserial-AH02ZDDI",
+			Value: "/dev/ttyUSB0", ///dev/tty.usbserial-AH02ZDDI",
 		},
 	}
 	app.Action = run
